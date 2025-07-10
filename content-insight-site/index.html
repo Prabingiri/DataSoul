@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DataSoul Studio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --ds-primary: #5b2cff;
+      --ds-secondary: #8b5cf6;
+      --ds-bg: #f9f9ff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(180deg, var(--ds-bg) 0%, #ffffff 100%);
+      color: #333; line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(120deg, var(--ds-primary), var(--ds-secondary));
+      color: #fff; text-align: center;
+      padding: 90px 20px 70px; clip-path: ellipse(120% 100% at 50% 0%);
+    }
+    header h1 { font-size: 3rem; font-weight: 700; margin-bottom: 10px; }
+    header p  { font-size: 1.2rem; opacity: .9; max-width: 600px; margin: 0 auto; }
+
+    section { max-width: 900px; margin: 80px auto; padding: 0 20px; }
+    section h2 { font-size: 1.8rem; font-weight: 600; margin-bottom: 20px; color: var(--ds-primary); }
+    section ul { margin-left: 20px; margin-bottom: 40px; }
+    section li { margin-bottom: 10px; }
+
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap: 24px; margin-bottom: 40px; }
+    .card {
+      background: #fff; border-radius: 14px;
+      box-shadow: 0 4px 14px rgba(0,0,0,.06); padding: 24px;
+    }
+    .card h3 { margin-bottom: 8px; font-size: 1.1rem; color: var(--ds-secondary); }
+
+    .cta { text-align: center; margin-top: 60px; }
+    .cta a {
+      background: var(--ds-primary); color: #fff;
+      padding: 14px 32px; border-radius: 30px;
+      font-weight: 600; text-decoration: none;
+      transition: opacity .2s ease;
+    }
+    .cta a:hover { opacity: .85; }
+
+    footer {
+      text-align: center; padding: 40px 20px 60px;
+      font-size: 0.9rem; color: #555;
+    }
+    footer a { color: var(--ds-primary); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>DataSoul Studio</h1>
+  <p>Turning raw numbers &amp; timeless wisdom into soulful, story-driven media.</p>
+</header>
+
+<section>
+  <h2>What We Do</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Data-Driven Narratives</h3>
+      <p>We distill large datasets—economics, trends, rankings—into clear, engaging visual stories.</p>
+    </div>
+    <div class="card">
+      <h3>Mental-Health Insights</h3>
+      <p>Short videos on heartbreak healing, resilience, and emotional well-being.</p>
+    </div>
+    <div class="card">
+      <h3>Spiritual Wisdom</h3>
+      <p>Bible verses, Gita passages, Osho thoughts—presented with modern design &amp; audio narration.</p>
+    </div>
+  </div>
+
+  <h2>How It Works</h2>
+  <ul>
+    <li><strong>You supply</strong> a topic or dataset—or choose one of our curated feeds.</li>
+    <li><strong>We craft</strong> scripts, visuals, and optional voice-overs using advanced AI &amp; ML.</li>
+    <li><strong>You receive</strong> ready-to-publish media optimised for TikTok, Reels &amp; Shorts.</li>
+  </ul>
+
+  <h2>Why DataSoul?</h2>
+  <ul>
+    <li>Cutting-edge machine-learning engineering behind every story.</li>
+    <li>Designed for emotion &amp; clarity—not just raw stats.</li>
+    <li>Fast turnaround, zero hassle, future-proof formats.</li>
+  </ul>
+
+  <div class="cta">
+    <a href="mailto:hello@datasoul.studio">Contact&nbsp;Us&nbsp;→</a>
+  </div>
+</section>
+
+<footer>
+  <a href="privacy.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="terms.html">Terms of Use</a>
+</footer>
+
+</body>
+</html>
