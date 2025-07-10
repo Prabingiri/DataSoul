@@ -11,51 +11,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 
   <style>
-    :root {
-      --ds-primary: #5b2cff;
-      --ds-secondary: #8b5cf6;
-      --ds-bg: #f9f9ff;
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Inter', sans-serif;
-      background: linear-gradient(180deg, var(--ds-bg) 0%, #ffffff 100%);
-      color: #333; line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(120deg, var(--ds-primary), var(--ds-secondary));
-      color: #fff; text-align: center;
-      padding: 90px 20px 70px; clip-path: ellipse(120% 100% at 50% 0%);
-    }
-    header h1 { font-size: 3rem; font-weight: 700; margin-bottom: 10px; }
-    header p  { font-size: 1.2rem; opacity: .9; max-width: 600px; margin: 0 auto; }
+    :root { --ds-primary:#5b2cff; --ds-secondary:#8b5cf6; --ds-bg:#f9f9ff; }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Inter',sans-serif;background:linear-gradient(180deg,var(--ds-bg)0%,#fff 100%);color:#333;line-height:1.6}
+    header{background:linear-gradient(120deg,var(--ds-primary),var(--ds-secondary));color:#fff;text-align:center;padding:90px 20px 70px;clip-path:ellipse(120% 100% at 50% 0%)}
+    header h1{font-size:3rem;font-weight:700;margin-bottom:10px}
+    header p{font-size:1.2rem;opacity:.9;max-width:600px;margin:0 auto}
 
-    section { max-width: 900px; margin: 80px auto; padding: 0 20px; }
-    section h2 { font-size: 1.8rem; font-weight: 600; margin-bottom: 20px; color: var(--ds-primary); }
-    section ul { margin-left: 20px; margin-bottom: 40px; }
-    section li { margin-bottom: 10px; }
+    section{max-width:900px;margin:80px auto;padding:0 20px}
+    section h2{font-size:1.8rem;font-weight:600;margin-bottom:20px;color:var(--ds-primary)}
+    section ul{margin-left:20px;margin-bottom:40px}
+    section li{margin-bottom:10px}
 
-    .card-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap: 24px; margin-bottom: 40px; }
-    .card {
-      background: #fff; border-radius: 14px;
-      box-shadow: 0 4px 14px rgba(0,0,0,.06); padding: 24px;
-    }
-    .card h3 { margin-bottom: 8px; font-size: 1.1rem; color: var(--ds-secondary); }
+    .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin-bottom:40px}
+    .card{background:#fff;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.06);padding:24px}
+    .card h3{margin-bottom:8px;font-size:1.1rem;color:var(--ds-secondary)}
 
-    .cta { text-align: center; margin-top: 60px; }
-    .cta a {
-      background: var(--ds-primary); color: #fff;
-      padding: 14px 32px; border-radius: 30px;
-      font-weight: 600; text-decoration: none;
-      transition: opacity .2s ease;
-    }
-    .cta a:hover { opacity: .85; }
+    .cta{text-align:center;margin-top:60px}
+    .cta a{background:var(--ds-primary);color:#fff;padding:14px 32px;border-radius:30px;font-weight:600;text-decoration:none;transition:opacity .2s ease}
+    .cta a:hover{opacity:.85}
 
-    footer {
-      text-align: center; padding: 40px 20px 60px;
-      font-size: 0.9rem; color: #555;
-    }
-    footer a { color: var(--ds-primary); text-decoration: none; }
+    footer{text-align:center;padding:40px 20px 60px;font-size:.9rem;color:#555}
+    footer a{color:var(--ds-primary);text-decoration:none}
   </style>
 </head>
 <body>
@@ -68,25 +45,16 @@
 <section>
   <h2>What We Do</h2>
   <div class="card-grid">
-    <div class="card">
-      <h3>Data-Driven Narratives</h3>
-      <p>We distill large datasets—economics, trends, rankings—into clear, engaging visual stories.</p>
-    </div>
-    <div class="card">
-      <h3>Mental-Health Insights</h3>
-      <p>Short videos on heartbreak healing, resilience, and emotional well-being.</p>
-    </div>
-    <div class="card">
-      <h3>Spiritual Wisdom</h3>
-      <p>Bible verses, Gita passages, Osho thoughts—presented with modern design &amp; audio narration.</p>
-    </div>
+    <div class="card"><h3>Data-Driven Narratives</h3><p>We turn vast datasets—economics, trends, rankings—into clear, engaging visual stories.</p></div>
+    <div class="card"><h3>Mental-Health Insights</h3><p>Short videos on heartbreak healing, resilience, and emotional well-being.</p></div>
+    <div class="card"><h3>Spiritual Wisdom</h3><p>Bible verses, Gita passages, Osho thoughts—presented with modern design &amp; narration.</p></div>
   </div>
 
   <h2>How It Works</h2>
   <ul>
-    <li><strong>You supply</strong> a topic or dataset—or choose one of our curated feeds.</li>
-    <li><strong>We craft</strong> scripts, visuals, and optional voice-overs using advanced AI &amp; ML.</li>
-    <li><strong>You receive</strong> ready-to-publish media optimised for TikTok, Reels &amp; Shorts.</li>
+    <li><strong>We curate topics</strong> from authoritative public sources and timeless texts.</li>
+    <li><strong>Our pipeline</strong> crafts scripts, visuals, and voice-overs with advanced AI &amp; ML.</li>
+    <li><strong>You receive</strong> ready-to-publish media optimised for TikTok, Reels, &amp; Shorts.</li>
   </ul>
 
   <h2>Why DataSoul?</h2>
@@ -96,9 +64,7 @@
     <li>Fast turnaround, zero hassle, future-proof formats.</li>
   </ul>
 
-  <div class="cta">
-    <a href="mailto:hello@datasoul.studio">Contact&nbsp;Us&nbsp;→</a>
-  </div>
+  <div class="cta"><a href="mailto:hello@datasoul.studio">Contact&nbsp;Us&nbsp;→</a></div>
 </section>
 
 <footer>
